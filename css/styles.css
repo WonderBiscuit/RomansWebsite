@@ -1,0 +1,11 @@
+.Nav{
+
+}
+header {
+    background-color: #282828;
+    flex: auto;
+    color: white;
+}
+body{
+    background-color: #404040;
+}
