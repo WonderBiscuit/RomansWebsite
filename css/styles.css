@@ -1,11 +1,44 @@
-.Nav{
-
+body{
+    margin: 0px;
+    background-color: #404040;
 }
 header {
     background-color: #282828;
-    flex: auto;
-    color: white;
+    padding: 20px 0px;
+    margin: 0px 0px 20px 0px;
+    max-width: 100%;
+    height: 100px;
 }
-body{
-    background-color: #404040;
+header h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    display: inline;
+}
+header img{
+    float: left;
+   max-width: 30%;
+   max-height: 120px;
+   display: inline;
+}
+main{
+    max-width: 800px;
+    margin: 10px;
+    padding: 0px 20px;
+}
+.navigation a{
+    float: right;
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    padding: 10px;
+    display:inline;
+}
+.navigation a:hover{
+    color: forestgreen;
+}
+footer {
+    background-color: #282828;
+    padding: 50px;
+    margin: 10px 0px;
 }
