@@ -13,7 +13,9 @@ ul, ol{
     color: white;
     list-style-type: none;
 }
+
 /*Header*/
+
 header {
     background-color: #282828;
     padding: 20px 0px;
@@ -41,8 +43,11 @@ header img{
     max-width: 100%;
     display: inline;
 }
+
 /*Main Body*/
+
 main{
+    
     margin: 10px;
     padding: 0px 10px;
     padding-bottom: 70px;
@@ -51,7 +56,9 @@ main{
 .main-right{
     float: right;
 }
+
 /*Aside Menu*/
+
 aside {
     float: left;
     margin: 0px 50px 10px 0px;
@@ -68,7 +75,9 @@ aside ul{
     padding: 0px;
     margin: 0px;
 }
+
 /*Projects Boxes*/
+
 .projects{
     display: inline-block;
     max-width: 100%;
@@ -91,7 +100,9 @@ aside ul{
     margin: 0px;
     font-size: 24px;
 }
+
 /*Article Boxes*/
+
 .articles {
     display: inline-block;
     max-width: 100%;
@@ -117,7 +128,9 @@ aside ul{
     margin: 0px;
     font-size: 24px;
 }
+
 /*Navigation Elements*/
+
 .navigation a{
     float: right;
     font-family: 'Chakra Petch', sans-serif;
@@ -129,7 +142,9 @@ aside ul{
 .navigation a:hover{
     color: forestgreen;
 }
+
 /*Footer*/
+
 footer {
     position: absolute;
     bottom: 0;
